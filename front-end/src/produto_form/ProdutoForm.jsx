@@ -8,19 +8,8 @@ class ProdutoForm extends Component {
                 <form >
                     <TextField fullWidth id="nome" label="nome" />
                     <TextField fullWidth id="nome" label="nome" />
-                    {/* <Select
-                        displayEmpty
-                        id= "cat-select"
-                    >
-                        <MenuItem value="" disabled>
-                            Placeholder
-                        </MenuItem>
-                        <MenuItem value={10}>Ten</MenuItem>
-                        <MenuItem value={20}>Twenty</MenuItem>
-                        <MenuItem value={30}>Thirty</MenuItem>
-                    </Select> */}
-
-                    <FormControl>
+                    
+                    <FormControl fullWidth>
                         <InputLabel id="demo-controlled-open-select-label">Age</InputLabel>
                         <Select
                             labelWidth="10"
